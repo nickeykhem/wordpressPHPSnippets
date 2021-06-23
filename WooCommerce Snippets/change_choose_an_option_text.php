@@ -1,3 +1,5 @@
+<?
+
 //Customise the dropdown 'choose an option'
 add_filter('woocommerce_dropdown_variation_attribute_options_args', 'wcvdc_dropdown_choice', 10);
 
