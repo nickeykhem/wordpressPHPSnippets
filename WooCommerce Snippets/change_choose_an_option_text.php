@@ -7,7 +7,7 @@ add_filter('woocommerce_dropdown_variation_attribute_options_args', 'wcvdc_dropd
 // Displays the custom "Choose an option" on the front end
 function custom_dropdown_choice( $args ){
 
-  $args['show_option_none'] = "Select an option:";
+  $args['show_option_none'] = "NEW TEXT GOES HERE";
 
   return $args;
   
